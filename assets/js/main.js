@@ -223,14 +223,14 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.section__title, .section__subtitle`, {delay: 600})
-sr.reveal(`.home__img`, {delay: 900, origin: 'top'})
-sr.reveal(`.home__title`, {delay: 500, origin: 'left'})
-sr.reveal(`.home__subtitle`, {delay: 700, origin: 'left'})
-sr.reveal(`.home__description`, {delay: 900, origin: 'left'})
-sr.reveal(`.btnContact`, {delay: 1000, origin: 'left'})
-sr.reveal(`.home__social`, {delay: 700, origin: 'left'})
-sr.reveal(`.home__scroll`, {delay: 900, origin: 'bottom'})
+sr.reveal(`.section__title, .section__subtitle`, {interval: 300})
+sr.reveal(`.home__img`, {delay: 200, origin: 'top'})
+sr.reveal(`.home__title`, {delay: 200, origin: 'left'})
+sr.reveal(`.home__subtitle`, {delay: 200, origin: 'left'})
+sr.reveal(`.home__description`, {delay: 200, origin: 'left'})
+sr.reveal(`.btnContact`, {delay: 200, origin: 'left'})
+sr.reveal(`.home__social`, {delay: 200, origin: 'left'})
+sr.reveal(`.home__scroll`, {delay: 200, origin: 'bottom'})
 
 sr.reveal(`.about__img`, {origin: 'left', interval: 100})
 sr.reveal(`.about__description`, {origin: 'right', interval: 200})
