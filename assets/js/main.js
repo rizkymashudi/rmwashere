@@ -241,11 +241,11 @@ sr.reveal(`.qualification__sections`, {origin: 'bottom', interval: 100})
 
 sr.reveal(`.services__container`, {origin: 'left', interval: 100})
 
-sr.reveal(`.portfolio__container`, {origin: 'bottom', interval: 700})
+sr.reveal(`.portfolio__container`, {origin: 'bottom', interval: 200})
 
 sr.reveal(`.project__container`, {origin: 'right', interval: 200})
 
 sr.reveal(`.contact__information`, {origin: 'left', interval: 100})
 sr.reveal(`.contact__form`, {origin: 'right', interval: 100})
 
-sr.reveal(`.footer`, {origin: 'bottom', interval: 100})
+// sr.reveal(`.footer`, {origin: 'bottom', interval: 100})
