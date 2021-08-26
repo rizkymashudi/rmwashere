@@ -225,7 +225,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.section__title, .section__subtitle`, {interval: 300})
 sr.reveal(`.home__img`, {interval: 200, origin: 'top'})
-sr.reveal(`.home__title, .home__subtitle, .home__description, .btnContact, .home__social`, {interval: 200, origin: 'left'})
+sr.reveal(`.home__title, .home__subtitle, .home__description, .btnContact, .home__social`, {interval: 100, origin: 'left'})
 sr.reveal(`.home__scroll`, {interval: 200, origin: 'bottom'})
 
 sr.reveal(`.about__img`, {origin: 'left', interval: 100})
