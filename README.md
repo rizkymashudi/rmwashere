@@ -1,2 +1,2 @@
-# rizky-s-personal-website
+# rizky personal website
 personal website portfolio
