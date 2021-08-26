@@ -233,9 +233,9 @@ sr.reveal(`.about__description`, {origin: 'right', interval: 200})
 sr.reveal(`.about__buttons`, {origin: 'bottom', interval: 100})
 
 sr.reveal(`.skills__one, .skills__two`, {origin: 'left', interval: 100})
-sr.reveal(`.skills__three`, {origin: 'right', interval: 500})
+sr.reveal(`.skills__three`, {origin: 'right', interval: 200})
 
-sr.reveal(`.edu`, {origin: 'left', interval: 250})
+sr.reveal(`.edu`, {origin: 'left', interval: 100})
 sr.reveal(`.work`, {origin: 'right', interval: 100})
 sr.reveal(`.qualification__sections`, {origin: 'bottom', interval: 100})
 
