@@ -224,30 +224,26 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.section__title, .section__subtitle`, {interval: 300})
-sr.reveal(`.home__img`, {delay: 200, origin: 'top'})
-sr.reveal(`.home__title`, {delay: 200, origin: 'left'})
-sr.reveal(`.home__subtitle`, {delay: 200, origin: 'left'})
-sr.reveal(`.home__description`, {delay: 200, origin: 'left'})
-sr.reveal(`.btnContact`, {delay: 200, origin: 'left'})
-sr.reveal(`.home__social`, {delay: 200, origin: 'left'})
-sr.reveal(`.home__scroll`, {delay: 200, origin: 'bottom'})
+sr.reveal(`.home__img`, {interval: 200, origin: 'top'})
+sr.reveal(`.home__title, .home__subtitle, .home__description, .btnContact, .home__social`, {interval: 200, origin: 'left'})
+sr.reveal(`.home__scroll`, {interval: 200, origin: 'bottom'})
 
 sr.reveal(`.about__img`, {origin: 'left', interval: 100})
 sr.reveal(`.about__description`, {origin: 'right', interval: 200})
 sr.reveal(`.about__buttons`, {origin: 'bottom', interval: 100})
 
 sr.reveal(`.skills__one, .skills__two`, {origin: 'left', interval: 100})
-sr.reveal(`.skills__three`, {origin: 'right', delay: 500})
+sr.reveal(`.skills__three`, {origin: 'right', interval: 500})
 
-sr.reveal(`.edu`, {origin: 'left', delay: 250})
+sr.reveal(`.edu`, {origin: 'left', interval: 250})
 sr.reveal(`.work`, {origin: 'right', interval: 100})
 sr.reveal(`.qualification__sections`, {origin: 'bottom', interval: 100})
 
 sr.reveal(`.services__container`, {origin: 'left', interval: 100})
 
-sr.reveal(`.portfolio__container`, {origin: 'bottom', delay: 700})
+sr.reveal(`.portfolio__container`, {origin: 'bottom', interval: 700})
 
-sr.reveal(`.project__container`, {origin: 'right', delay: 200})
+sr.reveal(`.project__container`, {origin: 'right', interval: 200})
 
 sr.reveal(`.contact__information`, {origin: 'left', interval: 100})
 sr.reveal(`.contact__form`, {origin: 'right', interval: 100})
