@@ -244,12 +244,4 @@ sr.reveal(`.project__container`, {origin: 'right', interval: 200})
 sr.reveal(`.contact__information`, {origin: 'left', interval: 100})
 sr.reveal(`.contact__form`, {origin: 'right', interval: 100})
 
-sr.reveal(`.custom-shape-divider-bottom-1630085081`, {origin: 'top', interval: 100})
-sr.reveal(`.custom-shape-divider-top-1630084973`, {origin: 'bottom', interval: 90})
-
-sr.reveal(`.custom-shape-divider-bottom-1630084503`, {origin: 'top', interval: 100})
-sr.reveal(`.custom-shape-divider-top-1630084674`, {origin: 'bottom', interval: 90})
-
-sr.reveal(`.custom-shape-divider-bottom-1630085383`, {origin: 'top', interval: 100})
-sr.reveal(`.custom-shape-divider-top-1630085614`, {origin: 'bottom', interval: 90})
 // sr.reveal(`.footer`, {origin: 'bottom', interval: 100})
