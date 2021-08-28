@@ -331,9 +331,8 @@ img{
     z-index: 100;
     animation: rotate 10s 0.2s linear infinite;
     -webkit-transform-origin: 52% 52%;
-    transform-origin: 52% 52%;
 }
-@keyframes rotate{
+@-webkit-keyframes rotate{
     to{
         transform: rotate(180deg);
     }
@@ -352,9 +351,8 @@ img{
     margin: auto;
     animation: rotate 10s 0.2s linear infinite;
     -webkit-transform-origin: 52% 52%;
-    transform-origin: 52% 52%;
 }
-@keyframes rotate{
+@-webkit-keyframes rotate{
     to{
         transform: rotate(360deg);
     }
@@ -374,9 +372,8 @@ img{
     margin: auto;
     animation: rotate 20s 0.2s linear infinite;
     -webkit-transform-origin: 52% 52%;
-    transform-origin: 52% 52%;
 }
-@keyframes rotate{
+@-webkit-keyframes rotate{
     to{
         transform: rotate(360deg);
     }
@@ -1433,9 +1430,8 @@ img{
         z-index: 100;
         animation: rotate 10s 0.2s linear infinite;
         -webkit-transform-origin: 52% 52%;
-        transform-origin: 52% 52%;
     }
-    @keyframes rotate{
+    @-webkit-keyframes rotate{
         to{
             transform: rotate(180deg);
         }
@@ -1452,9 +1448,8 @@ img{
         margin: auto;
         animation: rotate 10s 0.2s linear infinite;
         -webkit-transform-origin: 52% 52%;
-        transform-origin: 52% 52%;
     }
-    @keyframes rotate{
+    @-webkit-keyframes rotate{
         to{
             transform: rotate(360deg);
         }
@@ -1471,9 +1466,8 @@ img{
         margin: auto;
         animation: rotate 20s 0.2s linear infinite;
         -webkit-transform-origin: 52% 52%;
-        transform-origin: 52% 52%;
     }
-    @keyframes rotate{
+    @-webkit-keyframes rotate{
         to{
             transform: rotate(360deg);
         }
