@@ -1225,6 +1225,11 @@ img{
 @media screen and (max-width: 350px){
     .section__bgColor{
         background: var(--first-color-second);
+        height: 70vh;
+        z-index: 1;
+    }
+    .sectionQ__bgColor{
+        background: var(--first-color-second);
         height: 60vh;
         z-index: 1;
     }
@@ -1406,9 +1411,20 @@ img{
 @media screen and (min-width: 351px){
     .section__bgColor{
         background: var(--first-color-second);
-        height: 90vh;
+        height: 80vh;
         z-index: 1;
     }
+
+    .sectionQ__bgColor{
+        background: var(--first-color-second);
+        height: 60vh;
+        z-index: 1;
+    }
+
+    /* .about__buttons{
+        justify-content: center;
+        paddi
+    } */
 
     .about__img{
         width: 260px;
@@ -1602,6 +1618,12 @@ img{
 @media screen and (min-width: 568px){
     .section__bgColor{
         background: var(--first-color-second);
+        height: 60vh;
+        z-index: 1;
+    }
+
+    .sectionQ__bgColor{
+        background: var(--first-color-second);
         height: 50vh;
         z-index: 1;
     }
@@ -1621,6 +1643,11 @@ img{
     .home__img{
         order: 1;
         /* justify-self: center; */
+    }
+
+    .services__container{
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
     }
 
     .about__container,
@@ -1895,6 +1922,10 @@ img{
         width: 450px;
     }
 
+    .skills__container{
+        padding: var(--mb-3);
+    }
+
     .portfolio__img{
         width: 320px;
     }
@@ -2131,6 +2162,13 @@ img{
         /* position: relative; */
         background: var(--first-color-second);
         height: 70vh;
+        z-index: 1;
+    }
+
+    .sectionQ__bgColor{
+        /* position: relative; */
+        background: var(--first-color-second);
+        height: 60vh;
         z-index: 1;
     }
 
