@@ -1634,6 +1634,220 @@ img{
   
 }
 
+@media screen and (min-width: 375px){
+    .sectionA__bgColor{
+        background: var(--first-color-second);
+        height: 130vh;
+        z-index: 1;
+    }
+
+    .sectionSK__bgColor{
+        background: var(--first-color-second);
+        height: 100vh;
+        z-index: 1;
+    }
+    .sectionSS__bgColor{
+        background: var(--first-color-second);
+        height: 110vh;
+        z-index: 1;
+    }
+    .sectionQ__bgColor{
+        background: var(--first-color-second);
+        height: 80vh;
+        z-index: 1;
+    }
+
+    /* .about__buttons{
+        justify-content: center;
+        paddi
+    } */
+
+    .about__img{
+        width: 260px;
+    }
+
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+    .nav__menu{
+        padding: 2rem .25rem 4rem;
+    }
+
+    .nav__list{
+        column-gap: 0;
+    }
+
+    .home__content{
+        grid-template-columns: 3fr 3fr;
+    }
+    
+    .home__social{
+        justify-content: right;
+    }
+
+    .home__blob{
+        width: 280px;
+    }
+
+
+    .skills__title{
+        font-size: var(--normal-font-size);
+    }
+
+    .qualification__data{
+        gap: .5rem;
+    }
+
+    /* .services__container{
+        grid-template-columns: max-content;
+        justify-content: center;
+    } */
+
+    .services__container{
+        grid-template-columns: repeat(1, 200px);
+        justify-content: center;
+    }
+
+    .services__content{
+        padding-right: 3.5rem;
+    }
+
+    .services__modal{
+        padding: 0.5rem;
+    }
+
+    .project__img{
+        width: 200px;
+    }
+
+    .testimonial__data,
+    .testimonial__header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimonial__img{
+        margin-right: 0;
+        margin-bottom: var(--mb-0-25);
+    }
+
+    /* wave above about me */
+    .custom-shape-divider-top-1630869154 {
+        position: relative;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        z-index: 2;
+    }
+    
+    .custom-shape-divider-top-1630869154 svg {
+        position: relative;
+        display: block;
+        width: calc(120% + 1.9px);
+        height: 50px;
+        transform: scaleY(1);
+    }
+
+    .custom-shape-divider-top-1630869154 .shape-fill {
+        fill: var(--body-color);
+    }
+
+    /* wave below services */
+    .custom-shape-divider-top-1630870526 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-top-1630870526 svg {
+        position: relative;
+        display: block;
+        width: calc(124% + 1.3px);
+        height: 90px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-top-1630870526 .shape-fill {
+        fill: var(--first-color-second);
+    }
+
+
+    /* project in mind top wave */
+    .custom-shape-divider-bottom-1630140970 {
+        position: relative;
+        top: 70px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .custom-shape-divider-bottom-1630140970 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.1px);
+        height: 110px;
+        transform: rotateY(180deg);
+    }
+
+    .custom-shape-divider-bottom-1630140970 .shape-fill {
+        fill: var(--first-color-second);
+    }
+
+    /* Project in mind wave bottom */
+    .custom-shape-divider-top-1630141213 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-top-1630141213 svg {
+        position: relative;
+        display: block;
+        width: calc(150% + 1.9px);
+        height: 100px;
+        transform: rotateY(180deg);
+    }
+
+    .custom-shape-divider-top-1630141213 .shape-fill {
+        fill: var(--first-color-second);
+    }
+
+    /* footer wave */
+    .custom-shape-divider-bottom-1630083332 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1630083332 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 60px;
+    }
+    
+    .custom-shape-divider-bottom-1630083332 .shape-fill {
+        fill: var(--first-color-second);
+    }
+  
+}
 
 /* For medium devices */
 @media screen and (min-width: 568px){
