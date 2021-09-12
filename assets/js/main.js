@@ -52,7 +52,7 @@ skillsHeader.forEach((el) => {
 
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
-    tabContents = document.querySelectorAll('[data-content')
+    tabContents = document.querySelectorAll('[data-content]')
 
 tabs.forEach(tab =>{
     tab.addEventListener('click', () => {
@@ -245,7 +245,7 @@ sr.reveal(`.contact__information`, {origin: 'left', interval: 100})
 sr.reveal(`.contact__form`, {origin: 'right', interval: 100})
 
 sr.reveal(`.custom-shape-divider-bottom-1630085081`, {origin: 'top', interval: 100})
-sr.reveal(`.custom-shape-divider-top-1630084973`, {origin: 'bottom', interval: 90})
+// sr.reveal(`.custom-shape-divider-top-1630084973`, {origin: 'bottom', interval: 90})
 
 sr.reveal(`.custom-shape-divider-bottom-1630084503`, {origin: 'top', interval: 100})
 sr.reveal(`.custom-shape-divider-top-1630084674`, {origin: 'bottom', interval: 90})
