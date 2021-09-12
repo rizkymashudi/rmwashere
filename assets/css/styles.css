@@ -1223,7 +1223,18 @@ img{
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
-    .section__bgColor{
+    .sectionA__bgColor{
+        background: var(--first-color-second);
+        height: 80vh;
+        z-index: 1;
+    }
+
+    .sectionSK__bgColor{
+        background: var(--first-color-second);
+        height: 70vh;
+        z-index: 1;
+    }
+    .sectionSS__bgColor{
         background: var(--first-color-second);
         height: 70vh;
         z-index: 1;
@@ -1409,12 +1420,22 @@ img{
 }
 
 @media screen and (min-width: 351px){
-    .section__bgColor{
+    .sectionA__bgColor{
         background: var(--first-color-second);
         height: 80vh;
         z-index: 1;
     }
 
+    .sectionSK__bgColor{
+        background: var(--first-color-second);
+        height: 70vh;
+        z-index: 1;
+    }
+    .sectionSS__bgColor{
+        background: var(--first-color-second);
+        height: 70vh;
+        z-index: 1;
+    }
     .sectionQ__bgColor{
         background: var(--first-color-second);
         height: 60vh;
@@ -1616,20 +1637,34 @@ img{
 
 /* For medium devices */
 @media screen and (min-width: 568px){
-    .section__bgColor{
+    .sectionA__bgColor{
         background: var(--first-color-second);
         height: 60vh;
         z-index: 1;
     }
 
+    .sectionSK__bgColor{
+        background: var(--first-color-second);
+        height: 60vh;
+        z-index: 1;
+    }
+    .sectionSS__bgColor{
+        background: var(--first-color-second);
+        height: 70vh;
+        z-index: 1;
+    }
     .sectionQ__bgColor{
         background: var(--first-color-second);
-        height: 50vh;
+        height: 60vh;
         z-index: 1;
     }
 
     .about__img{
         width: 350px;
+    }
+
+    .about__description{
+        text-align: left;
     }
     
     .home__content{
@@ -1781,9 +1816,25 @@ img{
 }
 
 @media screen and (min-width: 768px){
-    .section__bgColor{
+    .sectionA__bgColor{
+        background: var(--first-color-second);
+        height: 60vh;
+        z-index: 1;
+    }
+
+    .sectionSK__bgColor{
+        background: var(--first-color-second);
+        height: 60vh;
+        z-index: 1;
+    }
+    .sectionSS__bgColor{
         background: var(--first-color-second);
         height: 70vh;
+        z-index: 1;
+    }
+    .sectionQ__bgColor{
+        background: var(--first-color-second);
+        height: 50vh;
         z-index: 1;
     }
 
@@ -2158,15 +2209,23 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .section__bgColor{
-        /* position: relative; */
+    .sectionA__bgColor{
+        background: var(--first-color-second);
+        height: 60vh;
+        z-index: 1;
+    }
+
+    .sectionSK__bgColor{
         background: var(--first-color-second);
         height: 70vh;
         z-index: 1;
     }
-
+    .sectionSS__bgColor{
+        background: var(--first-color-second);
+        height: 70vh;
+        z-index: 1;
+    }
     .sectionQ__bgColor{
-        /* position: relative; */
         background: var(--first-color-second);
         height: 60vh;
         z-index: 1;
