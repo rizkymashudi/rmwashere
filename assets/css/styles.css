@@ -1406,15 +1406,15 @@ img{
 @media screen and (min-width: 351px){
     .section__bgColor{
         background: var(--first-color-second);
-        height: 60vh;
+        height: 90vh;
         z-index: 1;
     }
 
     .about__img{
-        width: 200px;
+        width: 260px;
     }
 
-    .conntainer{
+    .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
@@ -1430,9 +1430,13 @@ img{
     .home__content{
         grid-template-columns: 3fr 3fr;
     }
+    
+    .home__social{
+        justify-content: right;
+    }
 
     .home__blob{
-        width: 300px;
+        width: 280px;
     }
 
 
@@ -1450,7 +1454,7 @@ img{
     } */
 
     .services__container{
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(1, 200px);
         justify-content: center;
     }
 
