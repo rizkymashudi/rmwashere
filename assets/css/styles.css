@@ -1637,13 +1637,13 @@ img{
 @media screen and (min-width: 375px){
     .sectionA__bgColor{
         background: var(--first-color-second);
-        height: 130vh;
+        height: 140vh;
         z-index: 1;
     }
 
     .sectionSK__bgColor{
         background: var(--first-color-second);
-        height: 100vh;
+        height: 120vh;
         z-index: 1;
     }
     .sectionSS__bgColor{
@@ -1653,7 +1653,7 @@ img{
     }
     .sectionQ__bgColor{
         background: var(--first-color-second);
-        height: 80vh;
+        height: 90vh;
         z-index: 1;
     }
 
@@ -1830,6 +1830,7 @@ img{
     .custom-shape-divider-bottom-1630083332 {
         position: relative;
         bottom: 0;
+        top: 5px;
         left: 0;
         width: 100%;
         overflow: hidden;
