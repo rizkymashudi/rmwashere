@@ -1807,6 +1807,7 @@ img{
     .custom-shape-divider-top-1630141213 {
         position: relative;
         top: 0;
+        bottom: 10px;
         left: 0;
         width: 100%;
         overflow: hidden;
