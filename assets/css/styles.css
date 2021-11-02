@@ -1637,13 +1637,13 @@ img{
 @media screen and (min-width: 375px){
     .sectionA__bgColor{
         background: var(--first-color-second);
-        height: 90vh;
+        height: 110vh;
         z-index: 1;
     }
 
     .sectionSK__bgColor{
         background: var(--first-color-second);
-        height: 70vh;
+        height: 100vh;
         z-index: 1;
     }
     .sectionSS__bgColor{
@@ -1653,7 +1653,7 @@ img{
     }
     .sectionQ__bgColor{
         background: var(--first-color-second);
-        height: 70vh;
+        height: 90vh;
         z-index: 1;
     }
 
@@ -1759,7 +1759,7 @@ img{
     /* wave below services */
     .custom-shape-divider-top-1630870526 {
         position: relative;
-        top: 0;
+        top: -5px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -1806,7 +1806,7 @@ img{
     /* Project in mind wave bottom */
     .custom-shape-divider-top-1630141213 {
         position: relative;
-        top: 0;
+        top: -5px;
         bottom: 10px;
         left: 0;
         width: 100%;
