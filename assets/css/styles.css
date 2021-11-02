@@ -1353,7 +1353,7 @@ img{
     /* project in mind top wave */
     .custom-shape-divider-bottom-1630140970 {
         position: relative;
-        top: 20px;
+        top: 70px;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -1637,13 +1637,13 @@ img{
 @media screen and (min-width: 375px){
     .sectionA__bgColor{
         background: var(--first-color-second);
-        height: 140vh;
+        height: 90vh;
         z-index: 1;
     }
 
     .sectionSK__bgColor{
         background: var(--first-color-second);
-        height: 120vh;
+        height: 70vh;
         z-index: 1;
     }
     .sectionSS__bgColor{
@@ -1653,7 +1653,7 @@ img{
     }
     .sectionQ__bgColor{
         background: var(--first-color-second);
-        height: 90vh;
+        height: 70vh;
         z-index: 1;
     }
 
@@ -2443,7 +2443,7 @@ img{
     }
     .sectionQ__bgColor{
         background: var(--first-color-second);
-        height: 60vh;
+        height: 70vh;
         z-index: 1;
     }
 
